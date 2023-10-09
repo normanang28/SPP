@@ -1,0 +1,36 @@
+ERROR - 2023-08-31 00:00:55 --> Duplicate entry '2147483647' for key 'NIS'
+CRITICAL - 2023-08-31 00:56:29 --> Too few arguments to function App\Controllers\Home::download(), 0 passed in C:\xampp\htdocs\spp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->download()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-31 00:58:19 --> Call to a member function simpan() on null
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->download('1693461494_a8a2...')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-31 00:58:36 --> Call to a member function simpan() on null
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->download('1693461494_a8a2...')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-31 00:58:48 --> Call to a member function simpan() on null
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->download('1693461494_a8a2...')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-31 01:08:43 --> Too few arguments to function App\Controllers\Home::download(), 0 passed in C:\xampp\htdocs\spp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->download()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

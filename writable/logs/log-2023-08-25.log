@@ -1,0 +1,171 @@
+CRITICAL - 2023-08-25 10:04:07 --> Invalid file: filter.php
+#0 C:\xampp\htdocs\spp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('filter.php')
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('filter', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(1293): view('filter', Array)
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->employee_salary_report()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-25 10:05:37 --> Invalid file: c_employee_salary.php
+#0 C:\xampp\htdocs\spp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('c_employee_sala...')
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('c_employee_sala...', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(1313): view('c_employee_sala...', Array)
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->cari_employee_salary()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-25 10:10:39 --> syntax error, unexpected '$column' (T_VARIABLE)
+#0 C:\xampp\htdocs\spp\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/employee_s...')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/employee_s...')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-25 10:11:11 --> Class 'Dompdf\Dompdf' not found
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->pdf_employee_salary()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2023-08-25 10:26:05 --> Unknown column 'pengguna.id_pengguna' in 'on clause'
+CRITICAL - 2023-08-25 10:26:05 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(1307): App\Models\M_model->filter_employee_salary('gaji_karyawan', '2023-08-25', '2023-08-25')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->cari_employee_salary()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-25 10:26:27 --> Unknown column 'pengguna.id_pengguna' in 'on clause'
+CRITICAL - 2023-08-25 10:26:27 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(1307): App\Models\M_model->filter_employee_salary('gaji_karyawan', '2023-08-25', '2023-08-25')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->cari_employee_salary()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-25 10:38:16 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->excel_employee_salary()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-25 10:39:41 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->excel_employee_salary()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-25 10:40:39 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->excel_employee_salary()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-25 10:43:29 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->excel_employee_salary()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-25 10:43:34 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->excel_employee_salary()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-25 10:46:31 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\spp\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/excel_empl...')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/excel_empl...')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-25 10:48:34 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\spp\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/employee_s...')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/employee_s...')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-25 10:48:49 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\spp\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/employee_s...')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/employee_s...')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-25 11:03:03 --> Cannot redeclare App\Controllers\Home::employee_salary_report()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-25 11:03:34 --> Cannot redeclare App\Controllers\Home::cari_employee_salary()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-25 11:13:07 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('laporan/c_invoi...', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(1313): view('laporan/c_invoi...', Array)
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->cari_invoice()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-25 11:19:28 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('laporan/c_invoi...', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(1313): view('laporan/c_invoi...', Array)
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->cari_invoice()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-25 11:19:48 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('laporan/c_invoi...', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(1313): view('laporan/c_invoi...', Array)
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->cari_invoice()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-25 11:21:32 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('laporan/c_invoi...', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(1313): view('laporan/c_invoi...', Array)
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->cari_invoice()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-25 11:21:37 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('laporan/c_invoi...', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(1313): view('laporan/c_invoi...', Array)
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->cari_invoice()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-25 23:11:15 --> Cannot redeclare App\Controllers\Home::employee_salary_report()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

@@ -1,0 +1,570 @@
+CRITICAL - 2023-08-21 01:14:18 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\spp\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\spp\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2023-08-21 01:17:10 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2023-08-21 01:17:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\spp\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\spp\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\spp\app\Models\M_model.php(256): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\xampp\htdocs\spp\app\Controllers\Home.php(76): App\Models\M_model->getarray('user', Array)
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2023-08-21 01:18:03 --> Table 'spp.pengguna' doesn't exist
+CRITICAL - 2023-08-21 01:18:03 --> Call to a member function getRowArray() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(79): App\Models\M_model->getarray('pengguna', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-21 02:21:02 --> Invalid file: add_users.php
+#0 C:\xampp\htdocs\spp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add_users.php')
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('add_users', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(192): view('add_users')
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_users()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-21 02:27:48 --> Invalid file: detail_users.php
+#0 C:\xampp\htdocs\spp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detail_users.ph...')
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('detail_users', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(165): view('detail_users')
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->detail_users('1')
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-21 02:31:48 --> Invalid file: detail_users.php
+#0 C:\xampp\htdocs\spp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detail_users.ph...')
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('detail_users', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(165): view('detail_users')
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->detail_users('1')
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-21 02:35:19 --> Invalid file: edit_users.php
+#0 C:\xampp\htdocs\spp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_users.php')
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('edit_users', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(282): view('edit_users')
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->edit_users('1')
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-21 02:44:23 --> Invalid file: add_users.php
+#0 C:\xampp\htdocs\spp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add_users.php')
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('add_users', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(192): view('add_users')
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_users()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-21 05:55:33 --> Too few arguments to function App\Models\M_model::ultraRows(), 6 passed in C:\xampp\htdocs\spp\app\Controllers\Home.php on line 275 and exactly 8 expected
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(275): App\Models\M_model->ultraRows('pengguna', 'user', 'kelas', 'pengguna.id_use...', 'pengguna.id_kel...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->edit_users('3')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-21 06:46:22 --> Too few arguments to function App\Controllers\Home::class(), 0 passed in C:\xampp\htdocs\spp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->class()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-21 07:19:33 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('kelas', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(367): view('kelas')
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->class()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-21 07:19:48 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('kelas', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(367): view('kelas')
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->class()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-21 08:00:31 --> Invalid file: .php
+#0 C:\xampp\htdocs\spp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(367): view('')
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->class()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-21 09:32:52 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\spp\app\Views\kelas.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\spp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('kelas', Array, true)
+#4 C:\xampp\htdocs\spp\app\Controllers\Home.php(377): view('kelas')
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->class()
+#6 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-08-21 09:33:23 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\spp\app\Views\kelas.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\spp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('kelas', Array, true)
+#4 C:\xampp\htdocs\spp\app\Controllers\Home.php(377): view('kelas')
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->class()
+#6 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-08-21 09:33:30 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\spp\app\Views\kelas.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\spp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('kelas', Array, true)
+#4 C:\xampp\htdocs\spp\app\Controllers\Home.php(377): view('kelas')
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->class()
+#6 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-08-21 10:05:17 --> Cannot redeclare App\Controllers\Home::class()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-08-21 10:33:22 --> Duplicate entry '57' for key 'WALKEL'
+CRITICAL - 2023-08-21 10:34:59 --> Invalid file: edit_class.php
+#0 C:\xampp\htdocs\spp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('edit_class.php')
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('edit_class', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(452): view('edit_class')
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->edit_class('2')
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-08-21 10:45:48 --> Column 'id_kelas' in where clause is ambiguous
+CRITICAL - 2023-08-21 10:45:48 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(446): App\Models\M_model->ultraRows('kelas', 'rombel', 'pengguna', 'user', 'kelas.id_rombel...', 'kelas.id_penggu...', 'kelas.maker_kel...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->edit_class('1')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 10:48:41 --> Column 'id_kelas' in where clause is ambiguous
+CRITICAL - 2023-08-21 10:48:41 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(446): App\Models\M_model->ultraRow('kelas', 'rombel', 'pengguna', 'user', 'kelas.id_rombel...', 'kelas.id_penggu...', 'kelas.maker_kel...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->edit_class('1')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 10:49:48 --> Column 'id_kelas' in where clause is ambiguous
+CRITICAL - 2023-08-21 10:49:48 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(446): App\Models\M_model->ultraRows('kelas', 'rombel', 'pengguna', 'user', 'kelas.id_rombel...', 'kelas.id_penggu...', 'kelas.maker_kel...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->edit_class('1')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 10:49:54 --> Column 'id_kelas' in where clause is ambiguous
+CRITICAL - 2023-08-21 10:49:54 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(446): App\Models\M_model->ultraRows('kelas', 'rombel', 'pengguna', 'user', 'kelas.id_rombel...', 'kelas.id_penggu...', 'kelas.maker_kel...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->edit_class('1')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 10:51:15 --> Column 'id_kelas' in where clause is ambiguous
+CRITICAL - 2023-08-21 10:51:15 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(446): App\Models\M_model->ultraRows('kelas', 'rombel', 'pengguna', 'user', 'kelas.id_rombel...', 'kelas.id_penggu...', 'kelas.maker_kel...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->edit_class('1')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 10:51:16 --> Column 'id_kelas' in where clause is ambiguous
+CRITICAL - 2023-08-21 10:51:16 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(446): App\Models\M_model->ultraRows('kelas', 'rombel', 'pengguna', 'user', 'kelas.id_rombel...', 'kelas.id_penggu...', 'kelas.maker_kel...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->edit_class('1')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 10:51:28 --> Column 'id_kelas' in where clause is ambiguous
+CRITICAL - 2023-08-21 10:51:28 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(446): App\Models\M_model->ultraRows('kelas', 'rombel', 'pengguna', 'user', 'kelas.id_rombel...', 'kelas.id_penggu...', 'kelas.maker_kel...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->edit_class('1')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-21 10:53:24 --> Too few arguments to function App\Models\M_model::ultraRows(), 6 passed in C:\xampp\htdocs\spp\app\Controllers\Home.php on line 446 and exactly 8 expected
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(446): App\Models\M_model->ultraRows('kelas', 'rombel', 'pengguna', 'kelas.id_rombel...', 'kelas.id_penggu...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->edit_class('1')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 10:56:00 --> Column 'id_kelas' in where clause is ambiguous
+CRITICAL - 2023-08-21 10:56:00 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(446): App\Models\M_model->klsRows('kelas', 'rombel', 'pengguna', 'user', 'kelas.id_rombel...', 'kelas.id_penggu...', 'kelas.maker_kel...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->edit_class('1')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 10:56:37 --> Column 'id_kelas' in where clause is ambiguous
+CRITICAL - 2023-08-21 10:56:37 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(446): App\Models\M_model->klsRows('kelas', 'rombel', 'pengguna', 'user', 'kelas.id_rombel...', 'kelas.id_penggu...', 'kelas.maker_kel...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->edit_class('1')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 10:56:37 --> Column 'id_kelas' in where clause is ambiguous
+CRITICAL - 2023-08-21 10:56:37 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(446): App\Models\M_model->klsRows('kelas', 'rombel', 'pengguna', 'user', 'kelas.id_rombel...', 'kelas.id_penggu...', 'kelas.maker_kel...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->edit_class('1')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 10:59:01 --> Column 'id_kelas' in where clause is ambiguous
+CRITICAL - 2023-08-21 10:59:01 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(446): App\Models\M_model->klsRows('kelas', 'rombel', 'pengguna', 'user', 'kelas.id_rombel...', 'kelas.id_penggu...', 'kelas.maker_kel...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->edit_class('1')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 10:59:03 --> Column 'id_kelas' in where clause is ambiguous
+CRITICAL - 2023-08-21 10:59:03 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(446): App\Models\M_model->klsRows('kelas', 'rombel', 'pengguna', 'user', 'kelas.id_rombel...', 'kelas.id_penggu...', 'kelas.maker_kel...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->edit_class('1')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 10:59:04 --> Column 'id_kelas' in where clause is ambiguous
+CRITICAL - 2023-08-21 10:59:04 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(446): App\Models\M_model->klsRows('kelas', 'rombel', 'pengguna', 'user', 'kelas.id_rombel...', 'kelas.id_penggu...', 'kelas.maker_kel...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->edit_class('1')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 10:59:06 --> Column 'id_kelas' in where clause is ambiguous
+CRITICAL - 2023-08-21 10:59:06 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(446): App\Models\M_model->klsRows('kelas', 'rombel', 'pengguna', 'user', 'kelas.id_rombel...', 'kelas.id_penggu...', 'kelas.maker_kel...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->edit_class('1')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-21 19:32:55 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\spp\app\Controllers\Home.php(60): file_get_contents('https://www.goo...')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2023-08-21 19:34:45 --> Column 'id_kelas' in where clause is ambiguous
+CRITICAL - 2023-08-21 19:34:45 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(446): App\Models\M_model->klsRows('kelas', 'rombel', 'pengguna', 'user', 'kelas.id_rombel...', 'kelas.id_penggu...', 'kelas.maker_kel...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->edit_class('1')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 19:43:27 --> Column 'id_kelas' in where clause is ambiguous
+CRITICAL - 2023-08-21 19:43:27 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(446): App\Models\M_model->klsRows('kelas', 'rombel', 'pengguna', 'user', 'kelas.id_rombel...', 'kelas.id_penggu...', 'kelas.maker_kel...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->edit_class('1')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 19:49:57 --> Duplicate entry '58' for key 'WALKEL'
+CRITICAL - 2023-08-21 19:55:54 --> Too few arguments to function App\Controllers\Home::delete_class(), 0 passed in C:\xampp\htdocs\spp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->delete_class()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-21 19:56:11 --> Too few arguments to function App\Controllers\Home::delete_class(), 0 passed in C:\xampp\htdocs\spp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->delete_class()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-21 19:56:14 --> Too few arguments to function App\Controllers\Home::delete_class(), 0 passed in C:\xampp\htdocs\spp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->delete_class()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-21 19:56:22 --> Too few arguments to function App\Controllers\Home::delete_class(), 0 passed in C:\xampp\htdocs\spp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->delete_class()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-21 19:56:33 --> Too few arguments to function App\Controllers\Home::delete_class(), 0 passed in C:\xampp\htdocs\spp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->delete_class()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2023-08-21 20:00:37 --> Unknown column 'user' in 'from clause'
+CRITICAL - 2023-08-21 20:00:37 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(158): App\Models\M_model->ultraRows('pengguna', 'kelas', 'rombel', 'user', 'pengguna.id_kel...', 'pengguna.id_rom...', 'pengguna.id_use...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->detail_users('3')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 20:01:27 --> Unknown column 'user' in 'from clause'
+CRITICAL - 2023-08-21 20:01:27 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(158): App\Models\M_model->ultraRows('pengguna', 'kelas', 'rombel', 'user', 'pengguna.id_kel...', 'pengguna.id_rom...', 'pengguna.id_use...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->detail_users('3')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 20:01:33 --> Unknown column 'user' in 'from clause'
+CRITICAL - 2023-08-21 20:01:33 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(158): App\Models\M_model->ultraRows('pengguna', 'kelas', 'rombel', 'user', 'pengguna.id_kel...', 'pengguna.id_rom...', 'pengguna.id_use...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->detail_users('3')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 20:04:26 --> Unknown column 'user' in 'from clause'
+CRITICAL - 2023-08-21 20:04:26 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(158): App\Models\M_model->ultraRows('pengguna', 'kelas', 'rombel', 'user', 'pengguna.id_kel...', 'pengguna.id_rom...', 'pengguna.id_use...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->detail_users('3')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 20:09:25 --> Unknown column 'user' in 'from clause'
+CRITICAL - 2023-08-21 20:09:25 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(159): App\Models\M_model->ultraRows('pengguna', 'kelas', 'rombel', 'user', 'pengguna.id_kel...', 'pengguna.id_rom...', 'pengguna.id_use...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->detail_users('3')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 20:13:12 --> Unknown column 'user' in 'from clause'
+CRITICAL - 2023-08-21 20:13:12 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(277): App\Models\M_model->ultraRows('pengguna', 'kelas', 'rombel', 'user', 'pengguna.id_kel...', 'pengguna.id_rom...', 'pengguna.id_use...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->edit_users('11')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 20:13:48 --> Unknown column 'user' in 'from clause'
+CRITICAL - 2023-08-21 20:13:48 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(277): App\Models\M_model->ultraRows('pengguna', 'kelas', 'rombel', 'user', 'pengguna.id_kel...', 'pengguna.id_rom...', 'pengguna.id_use...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->edit_users('11')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 20:21:41 --> Unknown column 'pengguna.id_kelas' in 'on clause'
+CRITICAL - 2023-08-21 20:21:41 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(131): App\Models\M_model->ultraOderBy('pengguna', 'kelas', 'rombel', 'user', 'pengguna.id_kel...', 'pengguna.id_rom...', 'pengguna.maker_...', 'tanggal_pgu')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->users()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 20:22:07 --> Unknown column 'pengguna.id_kelas' in 'on clause'
+CRITICAL - 2023-08-21 20:22:07 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(158): App\Models\M_model->ultraRow('pengguna', 'kelas', 'rombel', 'user', 'pengguna.id_kel...', 'pengguna.id_rom...', 'pengguna.id_use...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->detail_users('3')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 20:22:22 --> Unknown column 'pengguna.id_kelas' in 'on clause'
+CRITICAL - 2023-08-21 20:22:22 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(158): App\Models\M_model->ultraRow('pengguna', 'kelas', 'rombel', 'user', 'pengguna.id_kel...', 'pengguna.id_rom...', 'pengguna.id_use...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->detail_users('3')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 20:23:41 --> Unknown column 'pengguna.id_kelas_rombel' in 'on clause'
+CRITICAL - 2023-08-21 20:23:41 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(184): App\Models\M_model->ultraOderBy('pengguna', 'kelas', 'rombel', 'user', 'pengguna.id_kel...', 'pengguna.id_rom...', 'pengguna.maker_...', 'tanggal_pgu')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_users()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 20:24:53 --> Unknown column 'pengguna.id_kelas_rombel' in 'on clause'
+CRITICAL - 2023-08-21 20:24:53 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(184): App\Models\M_model->ultraOderBy('pengguna', 'kelas', 'rombel', 'user', 'pengguna.id_kel...', 'pengguna.id_rom...', 'pengguna.maker_...', 'tanggal_pgu')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_users()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 20:24:54 --> Unknown column 'pengguna.id_kelas_rombel' in 'on clause'
+CRITICAL - 2023-08-21 20:24:54 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(184): App\Models\M_model->ultraOderBy('pengguna', 'kelas', 'rombel', 'user', 'pengguna.id_kel...', 'pengguna.id_rom...', 'pengguna.maker_...', 'tanggal_pgu')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_users()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 20:25:25 --> Unknown column 'pengguna.id_kelas_rombel' in 'on clause'
+CRITICAL - 2023-08-21 20:25:25 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(184): App\Models\M_model->ultraOderBy('pengguna', 'kelas', 'rombel', 'user', 'pengguna.id_kel...', 'pengguna.id_rom...', 'pengguna.maker_...', 'tanggal_pgu')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_users()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 20:25:26 --> Unknown column 'pengguna.id_kelas_rombel' in 'on clause'
+CRITICAL - 2023-08-21 20:25:26 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(184): App\Models\M_model->ultraOderBy('pengguna', 'kelas', 'rombel', 'user', 'pengguna.id_kel...', 'pengguna.id_rom...', 'pengguna.maker_...', 'tanggal_pgu')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_users()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 20:25:26 --> Unknown column 'pengguna.id_kelas_rombel' in 'on clause'
+CRITICAL - 2023-08-21 20:25:26 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(184): App\Models\M_model->ultraOderBy('pengguna', 'kelas', 'rombel', 'user', 'pengguna.id_kel...', 'pengguna.id_rom...', 'pengguna.maker_...', 'tanggal_pgu')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_users()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 20:29:50 --> Unknown column 'id_kelas' in 'field list'
+ERROR - 2023-08-21 20:32:29 --> Unknown column 'id_kelas' in 'field list'
+ERROR - 2023-08-21 20:34:03 --> Duplicate entry 'wq' for key 'USERNAME'
+ERROR - 2023-08-21 20:34:03 --> Unknown column 'id_kelas' in 'field list'
+ERROR - 2023-08-21 20:34:42 --> Unknown column 'id_kelas' in 'field list'
+ERROR - 2023-08-21 20:38:52 --> Unknown column 'pengguna.id_kelas_rombel' in 'on clause'
+CRITICAL - 2023-08-21 20:38:52 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(277): App\Models\M_model->ultraRow('pengguna', 'kelas', 'rombel', 'user', 'pengguna.id_kel...', 'pengguna.id_rom...', 'pengguna.id_use...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->edit_users('3')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 20:40:17 --> Unknown column 'kelas.id_rombel' in 'on clause'
+CRITICAL - 2023-08-21 20:40:17 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(368): App\Models\M_model->ultraOderBy('kelas', 'rombel', 'pengguna', 'user', 'kelas.id_rombel...', 'kelas.id_penggu...', 'kelas.maker_kel...', 'tanggal_kelas')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->class()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 20:41:49 --> Unknown column 'kelas.id_rombel_pengguna' in 'on clause'
+CRITICAL - 2023-08-21 20:41:49 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(369): App\Models\M_model->ultraOderBy('kelas', 'rombel', 'pengguna', 'user', 'kelas.id_rombel...', 'kelas.id_penggu...', 'kelas.maker_kel...', 'tanggal_kelas')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->class()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 20:41:51 --> Unknown column 'kelas.id_rombel_pengguna' in 'on clause'
+CRITICAL - 2023-08-21 20:41:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(369): App\Models\M_model->ultraOderBy('kelas', 'rombel', 'pengguna', 'user', 'kelas.id_rombel...', 'kelas.id_penggu...', 'kelas.maker_kel...', 'tanggal_kelas')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->class()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 20:41:51 --> Unknown column 'kelas.id_rombel_pengguna' in 'on clause'
+CRITICAL - 2023-08-21 20:41:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(369): App\Models\M_model->ultraOderBy('kelas', 'rombel', 'pengguna', 'user', 'kelas.id_rombel...', 'kelas.id_penggu...', 'kelas.maker_kel...', 'tanggal_kelas')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->class()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-21 20:44:49 --> Unknown column 'wali_kelas' in 'field list'

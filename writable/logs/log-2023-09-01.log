@@ -1,0 +1,397 @@
+CRITICAL - 2023-09-01 03:55:12 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('invoice_spp/vie...', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(1402): view('invoice_spp/vie...')
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-01 03:55:26 --> syntax error, unexpected '{', expecting '('
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('invoice_spp/vie...', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(1402): view('invoice_spp/vie...')
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-01 03:56:27 --> syntax error, unexpected '{', expecting '('
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('invoice_spp/vie...', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(1402): view('invoice_spp/vie...')
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-01 03:56:38 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('invoice_spp/vie...', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(1402): view('invoice_spp/vie...')
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-01 04:01:48 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('invoice_spp/vie...', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(1402): view('invoice_spp/vie...')
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-01 04:11:22 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('invoice_spp/vie...', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(1402): view('invoice_spp/vie...')
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-09-01 04:28:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`DESC` ASC, `tgl_spp` ASC' at line 7
+CRITICAL - 2023-09-01 04:28:45 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(1391): App\Models\M_model->superData('spp', 'siswa', 'paket', 'user', 'spp.id_siswa_sp...', 'spp.id_paket_sp...', 'spp.maker_spp=u...', 'status DESC, tg...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-01 05:55:00 --> Unknown column 'id_user' in 'where clause'
+CRITICAL - 2023-09-01 05:55:00 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(2036): App\Models\M_model->edit_pp('settings_websit...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-01 05:56:17 --> Unknown column 'id_user' in 'where clause'
+CRITICAL - 2023-09-01 05:56:17 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(2038): App\Models\M_model->edit_pp('settings_websit...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-01 05:56:19 --> Unknown column 'id_user' in 'where clause'
+CRITICAL - 2023-09-01 05:56:19 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(2038): App\Models\M_model->edit_pp('settings_websit...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-01 05:56:23 --> Unknown column 'id_user' in 'where clause'
+CRITICAL - 2023-09-01 05:56:23 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(2036): App\Models\M_model->edit_pp('settings_websit...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-01 06:04:20 --> Call to a member function settings_website() on null
+#0 C:\xampp\htdocs\spp\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#3 C:\xampp\htdocs\spp\app\Controllers\Home.php(2043): view('header', Array)
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-09-01 06:04:27 --> Call to a member function settings_website() on null
+#0 C:\xampp\htdocs\spp\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#3 C:\xampp\htdocs\spp\app\Controllers\Home.php(2043): view('header', Array)
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-09-01 06:04:40 --> Call to a member function edit_pp() on null
+#0 C:\xampp\htdocs\spp\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#3 C:\xampp\htdocs\spp\app\Controllers\Home.php(2043): view('header', Array)
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-09-01 06:05:25 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->aksi_change_website_settings()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-01 06:06:52 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->aksi_change_website_settings()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-01 06:06:53 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->aksi_change_website_settings()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-01 06:06:54 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->aksi_change_website_settings()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-01 06:06:54 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->aksi_change_website_settings()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-01 06:06:54 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->aksi_change_website_settings()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-01 06:10:11 --> Too few arguments to function App\Controllers\Home::settings_control(), 0 passed in C:\xampp\htdocs\spp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-01 06:10:54 --> Too few arguments to function App\Controllers\Home::settings_control(), 0 passed in C:\xampp\htdocs\spp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-01 06:10:55 --> Too few arguments to function App\Controllers\Home::settings_control(), 0 passed in C:\xampp\htdocs\spp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-01 06:10:56 --> Too few arguments to function App\Controllers\Home::settings_control(), 0 passed in C:\xampp\htdocs\spp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-01 06:13:48 --> Too few arguments to function App\Controllers\Home::settings_control(), 0 passed in C:\xampp\htdocs\spp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-01 06:14:38 --> Too few arguments to function App\Controllers\Home::settings_control(), 0 passed in C:\xampp\htdocs\spp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-01 06:15:14 --> Too few arguments to function App\Controllers\Home::settings_control(), 0 passed in C:\xampp\htdocs\spp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-01 06:19:13 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\spp\app\Controllers\Home.php on line 2045
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(2045): view('header', NULL)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-01 06:24:17 --> syntax error, unexpected '$use' (T_VARIABLE), expecting '('
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('settings', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(2052): view('settings', Array)
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-01 06:25:03 --> syntax error, unexpected '$use' (T_VARIABLE), expecting '('
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('settings', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(2052): view('settings', Array)
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-01 06:25:06 --> syntax error, unexpected '$use' (T_VARIABLE), expecting '('
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('settings', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(2052): view('settings', Array)
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-01 06:25:27 --> syntax error, unexpected '$use' (T_VARIABLE), expecting '('
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('settings', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(2052): view('settings', Array)
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-01 06:25:29 --> syntax error, unexpected '$use' (T_VARIABLE), expecting '('
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('settings', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(2052): view('settings', Array)
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-01 06:25:47 --> syntax error, unexpected '$use' (T_VARIABLE), expecting '('
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('settings', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(2052): view('settings', Array)
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-01 06:25:49 --> syntax error, unexpected '$use' (T_VARIABLE), expecting '('
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('settings', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(2052): view('settings', Array)
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-01 06:25:56 --> syntax error, unexpected '$use' (T_VARIABLE), expecting '('
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('settings', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(2052): view('settings', Array)
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-01 06:26:15 --> syntax error, unexpected '$use' (T_VARIABLE), expecting '('
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('settings', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(2052): view('settings', Array)
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-01 06:26:19 --> syntax error, unexpected '$use' (T_VARIABLE), expecting '('
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('settings', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(2052): view('settings', Array)
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-01 06:26:33 --> syntax error, unexpected '$use' (T_VARIABLE), expecting '('
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('settings', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(2052): view('settings', Array)
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-01 06:57:35 --> syntax error, unexpected '...' (T_ELLIPSIS)
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(2050): view('header')
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-01 07:42:57 --> syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(2044): view('header', Array)
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-01 07:44:33 --> syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(2463): view('header', Array)
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->packet()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-01 07:44:35 --> syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(2044): view('header', Array)
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-01 08:12:12 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\spp\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\spp\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(34): CodeIgniter\Model->__call('getDataSettings...', Array)
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

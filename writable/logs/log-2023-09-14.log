@@ -1,0 +1,171 @@
+ERROR - 2023-09-14 10:40:05 --> Unknown column 'spp.maker_spp' in 'on clause'
+CRITICAL - 2023-09-14 10:40:05 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(1584): App\Models\M_model->ultra('spp', 'siswa', 'paket', 'user', 'spp.id_siswa_sp...', 'spp.id_paket_sp...', 'spp.maker_spp=u...')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_invoice()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-14 10:40:10 --> Unknown column 'spp.maker_spp' in 'on clause'
+CRITICAL - 2023-09-14 10:40:10 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(1644): App\Models\M_model->ultra('spp', 'siswa', 'paket', 'user', 'spp.id_siswa_sp...', 'spp.id_paket_sp...', 'spp.maker_spp=u...')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_fine()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-14 10:41:23 --> Unknown column 'spp.maker_spp' in 'on clause'
+CRITICAL - 2023-09-14 10:41:23 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(1584): App\Models\M_model->ultra('spp', 'siswa', 'paket', 'user', 'spp.id_siswa_sp...', 'spp.id_paket_sp...', 'spp.maker_spp=u...')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_invoice()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-14 10:41:28 --> Unknown column 'spp.maker_spp' in 'on clause'
+CRITICAL - 2023-09-14 10:41:28 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(1584): App\Models\M_model->ultra('spp', 'siswa', 'paket', 'user', 'spp.id_siswa_sp...', 'spp.id_paket_sp...', 'spp.maker_spp=u...')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_invoice()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-14 10:43:35 --> Unknown column 'spp.maker_spp' in 'on clause'
+CRITICAL - 2023-09-14 10:43:35 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(1584): App\Models\M_model->ultra('spp', 'siswa', 'paket', 'user', 'spp.id_siswa_sp...', 'spp.id_paket_sp...', 'spp.maker_spp=u...')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_invoice()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-14 10:43:36 --> Unknown column 'spp.maker_spp' in 'on clause'
+CRITICAL - 2023-09-14 10:43:36 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(1584): App\Models\M_model->ultra('spp', 'siswa', 'paket', 'user', 'spp.id_siswa_sp...', 'spp.id_paket_sp...', 'spp.maker_spp=u...')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_invoice()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-14 10:44:39 --> Unknown column 'spp.maker_spp' in 'on clause'
+CRITICAL - 2023-09-14 10:44:39 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(1644): App\Models\M_model->ultra('spp', 'siswa', 'paket', 'user', 'spp.id_siswa_sp...', 'spp.id_paket_sp...', 'spp.maker_spp=u...')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_fine()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-14 10:45:18 --> Unknown column 'spp.maker_spp' in 'on clause'
+CRITICAL - 2023-09-14 10:45:18 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(1644): App\Models\M_model->ultra('spp', 'siswa', 'paket', 'user', 'spp.id_siswa_sp...', 'spp.id_paket_sp...', 'spp.maker_spp=u...')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_fine()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-14 10:46:06 --> Unknown column 'spp.maker_spp' in 'on clause'
+CRITICAL - 2023-09-14 10:46:06 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(1644): App\Models\M_model->ultra('spp', 'siswa', 'paket', 'user', 'spp.id_siswa_sp...', 'spp.id_paket_sp...', 'spp.maker_spp=u...')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_fine()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-14 10:46:08 --> Unknown column 'spp.maker_spp' in 'on clause'
+CRITICAL - 2023-09-14 10:46:08 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(1644): App\Models\M_model->ultra('spp', 'siswa', 'paket', 'user', 'spp.id_siswa_sp...', 'spp.id_paket_sp...', 'spp.maker_spp=u...')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_fine()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-14 10:47:32 --> Unknown column 'spp.maker_spp' in 'on clause'
+ERROR - 2023-09-14 10:47:58 --> Unknown column 'spp.maker_spp' in 'on clause'
+CRITICAL - 2023-09-14 10:47:58 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(1644): App\Models\M_model->ultra('spp', 'siswa', 'paket', 'user', 'spp.id_siswa_sp...', 'spp.id_paket_sp...', 'spp.maker_spp=u...')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_fine()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-14 10:48:05 --> Unknown column 'spp.maker_spp' in 'on clause'
+CRITICAL - 2023-09-14 10:48:05 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(1644): App\Models\M_model->ultra('spp', 'siswa', 'paket', 'user', 'spp.id_siswa_sp...', 'spp.id_paket_sp...', 'spp.maker_spp=u...')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_fine()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-14 10:48:09 --> Unknown column 'spp.maker_spp' in 'on clause'
+CRITICAL - 2023-09-14 10:48:09 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(1644): App\Models\M_model->ultra('spp', 'siswa', 'paket', 'user', 'spp.id_siswa_sp...', 'spp.id_paket_sp...', 'spp.maker_spp=u...')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_fine()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-14 10:48:11 --> Unknown column 'spp.maker_spp' in 'on clause'
+CRITICAL - 2023-09-14 10:48:11 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(1644): App\Models\M_model->ultra('spp', 'siswa', 'paket', 'user', 'spp.id_siswa_sp...', 'spp.id_paket_sp...', 'spp.maker_spp=u...')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_fine()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-14 10:49:05 --> Unknown column 'spp.maker_spp' in 'on clause'
+CRITICAL - 2023-09-14 10:49:05 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(1644): App\Models\M_model->ultra('spp', 'siswa', 'paket', 'user', 'spp.id_siswa_sp...', 'spp.id_paket_sp...', 'spp.maker_spp=u...')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_fine()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-14 10:50:50 --> syntax error, unexpected ')', expecting variable (T_VARIABLE)
+#0 C:\xampp\htdocs\spp\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\spp\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_mo...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_mo...')
+#3 C:\xampp\htdocs\spp\app\Controllers\Home.php(1640): spl_autoload_call('App\\Models\\M_mo...')
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_fine()
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-09-14 10:50:52 --> syntax error, unexpected ')', expecting variable (T_VARIABLE)
+#0 C:\xampp\htdocs\spp\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\spp\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_mo...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_mo...')
+#3 C:\xampp\htdocs\spp\app\Controllers\Home.php(1640): spl_autoload_call('App\\Models\\M_mo...')
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_fine()
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-09-14 10:51:07 --> syntax error, unexpected ')', expecting variable (T_VARIABLE)
+#0 C:\xampp\htdocs\spp\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\spp\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_mo...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_mo...')
+#3 C:\xampp\htdocs\spp\app\Controllers\Home.php(1640): spl_autoload_call('App\\Models\\M_mo...')
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_fine()
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2023-09-14 10:51:29 --> Unknown column 'maker_spp' in 'field list'
+ERROR - 2023-09-14 10:55:17 --> Unknown column 'id_user_log' in 'field list'

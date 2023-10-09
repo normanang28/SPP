@@ -1,0 +1,124 @@
+CRITICAL - 2023-08-24 00:32:40 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-08-24 00:32:44 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-08-24 00:32:44 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\spp\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\spp\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\spp\app\Models\M_model.php(246): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\xampp\htdocs\spp\app\Controllers\Home.php(31): App\Models\M_model->getRow('settings_websit...', Array)
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-08-24 01:42:31 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\spp\app\Models\M_model.php on line 300
+#0 C:\xampp\htdocs\spp\app\Models\M_model.php(300): CodeIgniter\Database\BaseBuilder->like('spp.deskripsi', NULL)
+#1 C:\xampp\htdocs\spp\app\Controllers\Home.php(820): App\Models\M_model->superLike2('spp', 'pengguna', 'user', 'spp.id_pengguna...', 'spp.maker_spp=u...', 'spp.deskripsi', 'spp.tgl_spp', NULL)
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice_search()
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-08-24 01:44:53 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\spp\app\Models\M_model.php on line 300
+#0 C:\xampp\htdocs\spp\app\Models\M_model.php(300): CodeIgniter\Database\BaseBuilder->like('spp.deskripsi', NULL)
+#1 C:\xampp\htdocs\spp\app\Controllers\Home.php(820): App\Models\M_model->superLike2('spp', 'pengguna', 'user', 'spp.id_pengguna...', 'spp.maker_spp=u...', 'spp.deskripsi', 'spp.tgl_spp', NULL)
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice_search()
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-08-24 01:46:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(820): App\Models\M_model->superLike2('spp', 'pengguna', 'user', 'spp.id_pengguna...', 'spp.maker_spp=u...', 'spp.deskripsi', 'spp.tgl_spp', 'Denda')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice_search()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-24 01:46:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(820): App\Models\M_model->superLike2('spp', 'pengguna', 'user', 'spp.id_pengguna...', 'spp.maker_spp=u...', 'spp.deskripsi', 'spp.tgl_spp', 'Denda')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice_search()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-24 02:31:41 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::join() must be of the type string, null given, called in C:\xampp\htdocs\spp\app\Models\M_model.php on line 296
+#0 C:\xampp\htdocs\spp\app\Models\M_model.php(296): CodeIgniter\Database\BaseBuilder->join('pengguna', NULL)
+#1 C:\xampp\htdocs\spp\app\Controllers\Home.php(820): App\Models\M_model->superLike2('spp', 'pengguna', 'user', 'spp.id_pengguna...', 'spp.maker_spp=u...', 'spp.deskripsi', 'spp.tgl_spp', 'Denda')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice_search()
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-08-24 02:32:51 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::join() must be of the type string, null given, called in C:\xampp\htdocs\spp\app\Models\M_model.php on line 296
+#0 C:\xampp\htdocs\spp\app\Models\M_model.php(296): CodeIgniter\Database\BaseBuilder->join('pengguna', NULL)
+#1 C:\xampp\htdocs\spp\app\Controllers\Home.php(820): App\Models\M_model->superLike2('spp', 'pengguna', 'user', 'spp.id_pengguna...', 'spp.maker_spp=u...', 'spp.deskripsi', 'spp.tgl_spp', 'Denda')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice_search()
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-08-24 02:33:28 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::join() must be of the type string, null given, called in C:\xampp\htdocs\spp\app\Models\M_model.php on line 296
+#0 C:\xampp\htdocs\spp\app\Models\M_model.php(296): CodeIgniter\Database\BaseBuilder->join('pengguna', NULL)
+#1 C:\xampp\htdocs\spp\app\Controllers\Home.php(820): App\Models\M_model->superLike2('spp', 'pengguna', 'user', 'spp.id_pengguna...', 'spp.maker_spp=u...', 'spp.deskripsi', 'spp.tgl_spp', 'Denda')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice_search()
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-08-24 02:33:48 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::join() must be of the type string, null given, called in C:\xampp\htdocs\spp\app\Models\M_model.php on line 296
+#0 C:\xampp\htdocs\spp\app\Models\M_model.php(296): CodeIgniter\Database\BaseBuilder->join('pengguna', NULL)
+#1 C:\xampp\htdocs\spp\app\Controllers\Home.php(1069): App\Models\M_model->superLike2('gaji_karyawan', 'pengguna', 'user', 'gaji_karyawan.i...', 'gaji_karyawan.m...', 'gaji_karyawan.d...', 'gaji_karyawan.t...', '2023-08-01')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->employee_salary_search()
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2023-08-24 07:17:39 --> Unknown column 'denda' in 'order clause'
+CRITICAL - 2023-08-24 07:17:39 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(783): App\Models\M_model->asc_date('spp', 'pengguna', 'user', 'spp.id_pengguna...', 'spp.maker_spp=u...', 'tgl_spp', 'denda')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-24 07:21:09 --> Unknown column 'denda' in 'order clause'
+CRITICAL - 2023-08-24 07:21:09 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(783): App\Models\M_model->asc_date('spp', 'pengguna', 'user', 'spp.id_pengguna...', 'spp.maker_spp=u...', 'tgl_spp')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-24 07:55:57 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, array given, called in C:\xampp\htdocs\spp\app\Models\M_model.php on line 366
+#0 C:\xampp\htdocs\spp\app\Models\M_model.php(366): CodeIgniter\Database\BaseBuilder->orderBy(Array, 'ASC')
+#1 C:\xampp\htdocs\spp\app\Controllers\Home.php(792): App\Models\M_model->superRowsAsc('spp', 'pengguna', 'user', 'spp.id_pengguna...', 'spp.maker_spp=u...', Array, 'tgl_spp')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-08-24 08:06:36 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, array given, called in C:\xampp\htdocs\spp\app\Models\M_model.php on line 366
+#0 C:\xampp\htdocs\spp\app\Models\M_model.php(366): CodeIgniter\Database\BaseBuilder->orderBy(Array, 'ASC')
+#1 C:\xampp\htdocs\spp\app\Controllers\Home.php(792): App\Models\M_model->superRowsAsc('spp', 'pengguna', 'user', 'spp.id_pengguna...', 'spp.maker_spp=u...', Array, 'tgl_spp')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}

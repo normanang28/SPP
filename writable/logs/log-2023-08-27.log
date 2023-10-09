@@ -1,0 +1,336 @@
+CRITICAL - 2023-08-27 00:19:11 --> Too few arguments to function App\Controllers\Home::add_bayar_invoice(), 0 passed in C:\xampp\htdocs\spp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_bayar_invoice()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-27 00:20:39 --> Too few arguments to function App\Controllers\Home::add_bayar_invoice(), 0 passed in C:\xampp\htdocs\spp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_bayar_invoice()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-27 00:21:13 --> Too few arguments to function App\Controllers\Home::add_bayar_invoice(), 0 passed in C:\xampp\htdocs\spp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_bayar_invoice()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-27 00:21:25 --> Too few arguments to function App\Controllers\Home::add_bayar_invoice(), 0 passed in C:\xampp\htdocs\spp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_bayar_invoice()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-27 00:22:34 --> Too few arguments to function App\Controllers\Home::add_bayar_invoice(), 0 passed in C:\xampp\htdocs\spp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_bayar_invoice()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-27 00:23:24 --> Too few arguments to function App\Controllers\Home::add_bayar_invoice(), 0 passed in C:\xampp\htdocs\spp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_bayar_invoice()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-27 00:51:06 --> Too few arguments to function App\Controllers\Home::add_bayar_invoice(), 0 passed in C:\xampp\htdocs\spp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_bayar_invoice()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-27 01:45:07 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\spp\app\Views\invoice_spp\bayar\add_bayar_invoice.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\spp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('invoice_spp/bay...', Array, true)
+#4 C:\xampp\htdocs\spp\app\Controllers\Home.php(1541): view('invoice_spp/bay...')
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_bayar_invoice('52')
+#6 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-08-27 02:14:55 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\spp\app\Views\invoice_spp\bayar\add_bayar_invoice.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\spp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('invoice_spp/bay...', Array, true)
+#4 C:\xampp\htdocs\spp\app\Controllers\Home.php(1538): view('invoice_spp/bay...')
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_bayar_invoice('23')
+#6 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-08-27 02:16:52 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\spp\app\Views\invoice_spp\bayar\add_bayar_invoice.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\spp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('invoice_spp/bay...', Array, true)
+#4 C:\xampp\htdocs\spp\app\Controllers\Home.php(1536): view('invoice_spp/bay...')
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_bayar_invoice('23')
+#6 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-08-27 02:38:00 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(859): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 859, Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->status_invoice()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-27 03:03:41 --> Invalid file: invoice_spp/bayar/add_bayar_invoice_admin.php
+#0 C:\xampp\htdocs\spp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('invoice_spp/bay...')
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('invoice_spp/bay...', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(1298): view('invoice_spp/bay...')
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_bayar_invoice_a('18')
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-27 03:52:35 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\spp\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\spp\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(825): CodeIgniter\Model->__call('asc_date_with_w...', Array)
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-27 03:53:01 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\spp\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\spp\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(825): CodeIgniter\Model->__call('asc_date_with_w...', Array)
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-27 03:58:42 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('invoice_spp/vie...', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(807): view('invoice_spp/vie...')
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-27 04:14:15 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-27 04:15:16 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-27 04:15:38 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-27 04:17:19 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-27 04:18:42 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-27 06:17:03 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\spp\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\spp\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(799): CodeIgniter\Model->__call('hasOutstandingD...', Array)
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-27 06:20:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::where()
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(799): App\Models\M_model->hasOutstandingDues(Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-27 06:22:39 --> syntax error, unexpected '$id' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\spp\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/invoice')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/invoice')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-27 06:37:09 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('invoice_spp/vie...', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(812): view('invoice_spp/vie...')
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-27 06:37:27 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('invoice_spp/vie...', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(812): view('invoice_spp/vie...')
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-27 06:39:07 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('invoice_spp/vie...', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(812): view('invoice_spp/vie...')
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-27 06:40:43 --> syntax error, unexpected '<', expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\spp\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/invoice')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/invoice')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-27 06:52:24 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('invoice_spp/vie...', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(812): view('invoice_spp/vie...')
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-27 06:52:24 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('invoice_spp/vie...', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(812): view('invoice_spp/vie...')
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-27 06:53:06 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('invoice_spp/vie...', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(812): view('invoice_spp/vie...')
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-08-27 22:54:32 --> Table 'spp.denda' doesn't exist
+CRITICAL - 2023-08-27 22:54:32 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(802): App\Models\M_model->superData('denda', 'pengguna', 'user', 'spp.id_pengguna...', 'spp.maker_spp=u...', 'tgl_denda', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-27 22:56:55 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\spp\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\spp\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_mo...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_mo...')
+#3 C:\xampp\htdocs\spp\app\Controllers\Home.php(792): spl_autoload_call('App\\Models\\M_mo...')
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-08-27 22:57:31 --> Cannot redeclare App\Models\M_model::tes()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-08-27 22:57:38 --> Table 'spp.denda' doesn't exist
+CRITICAL - 2023-08-27 22:57:38 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(802): App\Models\M_model->superData('denda', 'pengguna', 'user', 'spp.id_pengguna...', 'spp.maker_spp=u...', 'tgl_spp', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-27 22:58:02 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\spp\app\Views\invoice_spp\view\invoice.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 93, Array)
+#1 C:\xampp\htdocs\spp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('invoice_spp/vie...', Array, true)
+#4 C:\xampp\htdocs\spp\app\Controllers\Home.php(819): view('invoice_spp/vie...')
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#6 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-08-27 22:58:05 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\spp\app\Views\invoice_spp\view\invoice.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 93, Array)
+#1 C:\xampp\htdocs\spp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('invoice_spp/vie...', Array, true)
+#4 C:\xampp\htdocs\spp\app\Controllers\Home.php(819): view('invoice_spp/vie...')
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#6 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-08-27 23:45:57 --> Unknown column 'kelas.id_rombel_kelas' in 'on clause'
+CRITICAL - 2023-08-27 23:45:57 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(516): App\Models\M_model->ultraOderBy('kelas', 'rombel', 'pengguna', 'user', 'kelas.id_rombel...', 'kelas.id_penggu...', 'kelas.maker_kel...', 'tanggal_kelas')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->class()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-27 23:49:19 --> Too few arguments to function App\Models\M_model::ultraOderBy(), 4 passed in C:\xampp\htdocs\spp\app\Controllers\Home.php on line 514 and exactly 8 expected
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(514): App\Models\M_model->ultraOderBy('kelas', 'user', 'kelas.maker_kel...', 'tanggal_kelas')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->class()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-27 23:55:38 --> Unknown column 'id_rombel_kelas' in 'field list'

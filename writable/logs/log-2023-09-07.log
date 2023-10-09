@@ -1,0 +1,199 @@
+ERROR - 2023-09-07 02:16:43 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-09-07 02:16:43 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\spp\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\spp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\spp\app\Models\M_model.php(515): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\spp\app\Controllers\Home.php(2252): App\Models\M_model->log('log_activity', 'user', 'log_activity.id...', Array, 'waktu')
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-09-07 02:37:57 --> Call to a member function paginate() on array
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-07 02:39:40 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::paginate()
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-07 02:39:49 --> Call to a member function paginate() on array
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-07 02:40:10 --> Too few arguments to function App\Models\M_model::log(), 5 passed in C:\xampp\htdocs\spp\app\Controllers\Home.php on line 2261 and exactly 8 expected
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(2261): App\Models\M_model->log('log_activity', 'user', 'log_activity.id...', Array, 'waktu')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-07 02:41:52 --> Call to a member function paginate() on array
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-07 02:43:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-07 02:44:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-07 02:46:10 --> Too few arguments to function CodeIgniter\Pager\Pager::__construct(), 0 passed in C:\xampp\htdocs\spp\app\Controllers\Home.php on line 2267 and exactly 2 expected
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(2267): CodeIgniter\Pager\Pager->__construct()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-07 02:47:19 --> Argument 1 passed to CodeIgniter\Pager\Pager::__construct() must be an instance of Config\Pager, int given, called in C:\xampp\htdocs\spp\app\Controllers\Home.php on line 2267
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(2267): CodeIgniter\Pager\Pager->__construct(1, 10)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-07 02:49:18 --> Call to undefined method CodeIgniter\Pager\Pager::createFromConfig()
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-07 02:51:08 --> Call to undefined method CodeIgniter\Pager\Pager::setPerPage()
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-07 02:51:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-07 02:52:31 --> Call to a member function getVar() on null
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-07 02:53:03 --> Call to undefined method CodeIgniter\Pager\Pager::setPerPage()
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-07 02:54:15 --> Call to undefined method CodeIgniter\Pager\Pager::getConfig()
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-07 02:57:14 --> Call to undefined method CodeIgniter\Pager\Pager::getConfig()
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-07 02:58:45 --> Call to undefined method CodeIgniter\Pager\Pager::setPerPage()
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-07 02:58:47 --> Call to undefined method CodeIgniter\Pager\Pager::setPerPage()
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-07 02:59:35 --> Call to undefined method CodeIgniter\Pager\Pager::setPerPage()
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-07 02:59:51 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\spp\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/vi...', Array, true)
+#3 C:\xampp\htdocs\spp\app\Controllers\Home.php(2264): view('log_activity/vi...')
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-09-07 06:04:22 --> Too few arguments to function App\Controllers\Home::download(), 0 passed in C:\xampp\htdocs\spp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->download()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-07 06:50:34 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('invoice_spp/vie...', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(1492): view('invoice_spp/vie...')
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-07 06:50:44 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('invoice_spp/vie...', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(1492): view('invoice_spp/vie...')
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-07 07:30:38 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('invoice_spp/vie...', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(1492): view('invoice_spp/vie...')
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

@@ -1,0 +1,290 @@
+CRITICAL - 2023-08-28 00:02:07 --> Cannot redeclare App\Controllers\Home::rombel()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-08-28 00:02:08 --> Cannot redeclare App\Controllers\Home::rombel()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-08-28 00:15:34 --> Unknown column 'jurusan.id_kelas' in 'where clause'
+CRITICAL - 2023-08-28 00:15:34 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(702): App\Models\M_model->fusion_Row('jurusan', 'user', 'jurusan.maker_j...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->edit_major('1')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-28 00:47:41 --> Table 'spp.guru' doesn't exist
+CRITICAL - 2023-08-28 00:47:41 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(763): App\Models\M_model->monsterOderBy('rombel', 'jurusan', 'kelas', 'guru', 'user', 'rombel.id_jurus...', 'rombel.id_kelas...', 'rombel.id_guru_...', 'rombel.maker_ro...', 'tanggal_rombel')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->rombel()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-28 00:52:06 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\spp\app\Views\rombel_spp\add\add_rombel.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\spp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('rombel_spp/add/...', Array, true)
+#4 C:\xampp\htdocs\spp\app\Controllers\Home.php(804): view('rombel_spp/add/...')
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_rombel()
+#6 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-08-28 00:57:14 --> Unknown column 'id_jurusan' in 'field list'
+CRITICAL - 2023-08-28 01:19:11 --> Invalid file: users/view/user.php
+#0 C:\xampp\htdocs\spp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/view/user...')
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('users/view/user', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(288): view('users/view/user')
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->teacher()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-08-28 01:59:00 --> Duplicate entry '1' for key 'USERNAME'
+ERROR - 2023-08-28 01:59:03 --> Duplicate entry '1' for key 'USERNAME'
+ERROR - 2023-08-28 01:59:15 --> Duplicate entry '1' for key 'USERNAME'
+CRITICAL - 2023-08-28 02:06:03 --> Invalid file: users/view/detail_guru.php
+#0 C:\xampp\htdocs\spp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/view/deta...')
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('users/view/deta...', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(315): view('users/view/deta...')
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->detail_teacher('2')
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-28 02:06:41 --> Too few arguments to function App\Controllers\Home::reset_p(), 0 passed in C:\xampp\htdocs\spp\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->reset_p()
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2023-08-28 02:19:14 --> Not unique table/alias: 'jurusan'
+CRITICAL - 2023-08-28 02:19:14 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(430): App\Models\M_model->edit_user('guru', 'kelas', 'jurusan', 'rombel', 'user', 'guru.id_kelas_g...', 'guru.id_jurusan...', 'guru.id_rombel_...', 'guru.maker_guru...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->edit_teacher('27')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-28 02:22:34 --> Not unique table/alias: 'jurusan'
+CRITICAL - 2023-08-28 02:22:34 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(430): App\Models\M_model->edit_user('guru', 'kelas', 'jurusan', 'rombel', 'user', 'guru.id_kelas_g...', 'guru.id_jurusan...', 'guru.id_rombel_...', 'guru.maker_guru...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->edit_teacher('27')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-28 02:23:21 --> Not unique table/alias: 'jurusan'
+CRITICAL - 2023-08-28 02:23:21 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(430): App\Models\M_model->edit_user('guru', 'kelas', 'jurusan', 'rombel', 'user', 'guru.id_kelas_g...', 'guru.id_jurusan...', 'guru.id_rombel_...', 'guru.maker_guru...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->edit_teacher('27')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-28 02:29:29 --> Not unique table/alias: 'jurusan'
+CRITICAL - 2023-08-28 02:29:29 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(430): App\Models\M_model->edit_user('guru', 'kelas', 'jurusan', 'rombel', 'user', 'guru.id_kelas_g...', 'guru.id_jurusan...', 'guru.id_rombel_...', 'guru.id_user_gu...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->edit_teacher('27')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-28 02:32:11 --> Invalid file: users/edit/edit_user.php
+#0 C:\xampp\htdocs\spp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/edit/edit...')
+#1 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('users/edit/edit...', Array, true)
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(443): view('users/edit/edit...')
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->edit_teacher('2')
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-28 05:20:44 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\spp\app\Views\rombel_spp\edit\edit_rombel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\spp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('rombel_spp/edit...', Array, true)
+#4 C:\xampp\htdocs\spp\app\Controllers\Home.php(860): view('rombel_spp/edit...')
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->edit_rombel('2')
+#6 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-08-28 05:48:17 --> Duplicate entry 'ray' for key 'USERNAME'
+CRITICAL - 2023-08-28 05:56:52 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\spp\app\Views\rombel_spp\add\add_rombel.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\spp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spp\system\Common.php(1089): CodeIgniter\View\View->render('rombel_spp/add/...', Array, true)
+#4 C:\xampp\htdocs\spp\app\Controllers\Home.php(811): view('rombel_spp/add/...')
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_rombel()
+#6 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-08-28 06:03:38 --> Unknown column 'guru.id_rombel_guru' in 'on clause'
+CRITICAL - 2023-08-28 06:03:38 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(277): App\Models\M_model->superOderBy('guru', 'rombel', 'user', 'guru.id_rombel_...', 'guru.maker_guru...', 'tanggal_guru')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->teacher()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-28 06:42:37 --> Duplicate entry '2' for key 'USERNAME'
+ERROR - 2023-08-28 06:42:48 --> Duplicate entry '2' for key 'USERNAME'
+CRITICAL - 2023-08-28 07:24:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getarray()
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(90): App\Models\M_model->fusionArray('user', 'guru', 'user.id_user=gu...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-28 07:29:38 --> Too few arguments to function App\Models\M_model::fusionArray(), 4 passed in C:\xampp\htdocs\spp\app\Controllers\Home.php on line 90 and exactly 5 expected
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(90): App\Models\M_model->fusionArray('user', 'guru', 'user.id_user=gu...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-28 07:37:04 --> Too few arguments to function App\Models\M_model::fusionArray(), 4 passed in C:\xampp\htdocs\spp\app\Controllers\Home.php on line 90 and exactly 5 expected
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(90): App\Models\M_model->fusionArray('user', 'guru', 'user.id_user=gu...', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-28 08:13:21 --> Duplicate entry 'students' for key 'USERNAME'
+ERROR - 2023-08-28 09:09:54 --> Table 'spp.pengguna' doesn't exist
+CRITICAL - 2023-08-28 09:09:54 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(1254): App\Models\M_model->superData('spp', 'pengguna', 'user', 'spp.id_pengguna...', 'spp.maker_spp=u...', 'tgl_spp', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-28 09:09:59 --> Table 'spp.pengguna' doesn't exist
+CRITICAL - 2023-08-28 09:09:59 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(1254): App\Models\M_model->superData('spp', 'pengguna', 'user', 'spp.id_pengguna...', 'spp.maker_spp=u...', 'tgl_spp', Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-28 09:20:57 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\spp\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\spp\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(849): CodeIgniter\Model->__call('countWhere', Array)
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->class()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-28 09:21:17 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\spp\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\spp\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\spp\app\Controllers\Home.php(848): CodeIgniter\Model->__call('countWhere', Array)
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->class()
+#4 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-08-28 09:27:25 --> Table 'spp.pengguna' doesn't exist
+CRITICAL - 2023-08-28 09:27:25 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(1240): App\Models\M_model->asc_date('spp', 'pengguna', 'user', 'spp.id_pengguna...', 'spp.maker_spp=u...', 'tgl_spp')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->invoice()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-28 09:32:40 --> Column 'id_siswa_spp' cannot be null
+ERROR - 2023-08-28 09:33:41 --> Table 'spp.pengguna' doesn't exist
+CRITICAL - 2023-08-28 09:33:41 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(1746): App\Models\M_model->spp_test('spp', 'pengguna', 'spp.id_pengguna...', Array, Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_bayar_invoice_a('64')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-28 09:36:53 --> Table 'spp.pengguna' doesn't exist
+CRITICAL - 2023-08-28 09:36:53 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(1746): App\Models\M_model->spp_test('spp', 'pengguna', 'spp.id_pengguna...', Array, Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->add_bayar_invoice_a('64')
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-28 09:40:24 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(1317): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 1317, Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->status_invoice()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-28 09:41:12 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(1317): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 1317, Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->status_invoice()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-28 09:42:21 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(1317): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 1317, Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->status_invoice()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-28 09:44:56 --> Table 'spp.pengguna' doesn't exist
+CRITICAL - 2023-08-28 09:44:56 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(1515): App\Models\M_model->superOderBy('gaji_karyawan', 'pengguna', 'user', 'gaji_karyawan.i...', 'gaji_karyawan.m...', 'tgl_tgl')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->employee_salary()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-08-28 09:49:51 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(1569): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 1569, Array)
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->status_employee_salary()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-08-28 09:51:54 --> Table 'spp.pengguna' doesn't exist
+CRITICAL - 2023-08-28 09:51:54 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\spp\app\Controllers\Home.php(1876): App\Models\M_model->filter_invoice('spp', '2023-07-30', '2023-08-28')
+#1 C:\xampp\htdocs\spp\system\CodeIgniter.php(832): App\Controllers\Home->cari_invoice()
+#2 C:\xampp\htdocs\spp\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\spp\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spp\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
